@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://jakarta.apache.org/struts/dtds/tiles-config.dtd">
+<tiles-definitions>
+    <definition name="homepage" template="/WEB-INF/pages/layout/layout.jsp">
+       <put name="title" value="Build Blocks" />
+       <put name="header" value="/WEB-INF/pages/layout/header.jsp" />
+       <put name="body" value="/WEB-INF/pages/layout/body.jsp" />
+       <put name="footer" value="/WEB-INF/pages/layout/footer.jsp" />
+    </definition>
+</tiles-definitions>
